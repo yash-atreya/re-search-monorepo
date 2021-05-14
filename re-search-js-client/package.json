@@ -1,0 +1,15 @@
+{
+  "name": "@yashatreya/re-search-js",
+  "version": "0.0.3",
+  "description": "JS client for re-search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Atreya",
+  "license": "ISC",
+  "dependencies": {
+    "@nempet/is-null-or-undefined": "1.0.3",
+    "axios": "0.21.1"
+  }
+}

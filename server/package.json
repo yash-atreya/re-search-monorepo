@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Server for re-search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "deploy": "sh ./deploy.sh"
+  },
+  "author": "Yash Atreya",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/compute": "2.4.4",
+    "@google-cloud/logging-bunyan": "^3.0.2",
+    "@nempet/is-null-or-undefined": "^1.0.3",
+    "bunyan": "^1.8.15",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.8.0",
+    "redis-modules-sdk": "0.5.9",
+    "unique-names-generator": "4.5.0",
+    "uuid": "8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

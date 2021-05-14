@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400&display=swap');
+
+@font-face {
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+src: url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;800&display=swap');
+}
+
+@tailwind utilities;

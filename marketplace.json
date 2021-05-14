@@ -1,0 +1,24 @@
+{
+    "app_name": "re-search",
+    "description": "Blazing fast search API",
+    "hidden": "false",
+    "rank": "21", 
+    "type": "Full App",
+    "contributed_by": "Community", 
+    "repo_url": "https://github.com/yash-atreya/re-search",
+    "download_url": "https://github.com/yash-atreya/re-search/archive/refs/heads/master.zip",
+    "hosted_url": "https://re-search-liart.vercel.app",
+    "quick_deploy": "false", 
+    "deploy_buttons": [],
+    "language": ["Javascript"], 
+    "redis_commands": ["FT.SEARCH"],
+    "redis_features": ["search"],
+    "redis_modules": ["RediSearch"],
+    "app_image_urls": [
+        "https://drive.google.com/file/d/1QpLMuhRqYQYv0ApC7m2EJtC2gU9qiUEe/view?usp=sharing"
+    ],
+    "youtube_url": "",
+    "special_tags": ["Hackathon"],
+    "verticals": ["SaaS"],
+    "markdown": "https://raw.githubusercontent.com/yash-atreya/re-search/master/README.md"
+}
