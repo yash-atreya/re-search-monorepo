@@ -81,7 +81,7 @@ async function createProject(req, res) {
     pricing_plan: 'free',
     cluster: {
       ...metadata,
-      redis_auth_key: 'wfbcqe8vq-3vanveoasp',
+      redis_auth_key: process.env.REDIS_AUTH_KEY,
       zone: projectFormData.cluster,
       machine_type: 'e2-medium',
     },

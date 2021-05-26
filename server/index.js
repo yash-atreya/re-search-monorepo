@@ -54,5 +54,5 @@ app.post('/removeObjects', adminAuth, checkRemoveBody, removeObjects);
 app.get('/search', searchAuth, search);
 
 app.listen(3000, () => {
-    console.log('Listening at http://35.242.249.83:3000');
+    console.log('Server Started!');
 });
