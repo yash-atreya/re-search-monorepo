@@ -17,8 +17,6 @@ Once the project is created, developers can create indices and add relevant data
 To add data to the index, devs are given an ```admin-api-key``` which is used to add and remove data, and alter configuration of an index.
 A ```search-only-api-key``` is also provided which the devs should on the client side of their applications to search.
 
-More detailed documentation can be found [here](DOCUMENTATION.md)
-
 ### Architecure Overview
 
 <img src="./public/re-search-architecture.png" height=75% width=100%>
